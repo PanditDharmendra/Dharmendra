@@ -1,0 +1,40 @@
+
+
+ * { padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: blue;
+}
+/* main section styles  */
+.main {
+     background: radial-gradient(circle, #254063 0%, #1A2F4A 100%);
+    /* background-image: url(assets/Images/bg.jpg); */
+    background-position: center center;
+    background-size: max(1600px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+    margin: 0;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.highlight-box {
+    /* Font styling  */
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 4rem;
+    color: #ffffff;
+    background: linear-gradient(to right, #A0A0A0, #2196F3);
+    
+    /* Layout styling */
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px; 
+    letter-spacing: 1px;
+}
