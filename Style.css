@@ -167,8 +167,26 @@ body {
 .second-blogs {
         background-color: oklch(98% .016 73.684);
         height: 75vh;
+        display: flex;
+        justify-content: space-between;
+
+
 }
 
+.left {
+    background-color:  #f5edd3;
+    width: 700px;
+    margin:10px 5px 10px 10px;
+    border-radius: 6px;
+}
+
+.right{
+    background-color:  #f1ead4;
+    color: #2c251d;
+    width: 700px;
+    margin: 10px 10px 10px 5px;
+    border-radius: 6px;
+}
 
 
 
