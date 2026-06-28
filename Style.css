@@ -24,6 +24,7 @@ body {
 
 
 
+
 /* Header is started here  */
 
 .headerOP {
@@ -48,12 +49,27 @@ body {
    width: 1px;
    height:auto;
    z-index: 10;
+   
  
 
      
 }  
+ 
+
+ nav  {
+  display: block;
+  color: white;
+  padding: 8px 8px;
+  text-decoration: none;
+
+}
 
 
+nav .logo:hover {
+  color: white;
+  font-weight: 900;
+
+}
 
 
 
@@ -199,6 +215,10 @@ body {
     margin-top: 10px;
 }
 
+.iframe {
+    display: flex;
+    text-align: left;
+}
 
 
 
