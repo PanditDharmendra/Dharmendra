@@ -190,7 +190,7 @@ nav .logo:hover {
 
 /* The second Blogs-section is started here  */
 .second-blogs {
-    background-color: oklch(98% .016 73.684);
+    background-color: oklch(9 8%.016 73.684);
     height: 75vh;
     display: flex;
     justify-content: space-between;
