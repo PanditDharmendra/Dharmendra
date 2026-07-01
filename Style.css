@@ -199,20 +199,20 @@ nav .logo:hover {
 }
 
 .left {
-    background-color: #f5edd3;
+    background-color: oklch(98% .016 73.684);
     width: 700px;
     margin: 10px 5px 10px 10px;
     border-radius: 6px;
-    border: 1px solid white;
+    border: 1px solid rgb(99, 88, 25);
 }
 
 .right {
-    background-color: #f1ead4;
+   background-color:  oklch(98% .016 73.684);
     color: #2c251d;
     width: 700px;
     margin: 10px 10px 10px 5px;
     border-radius: 6px;
-    border: 1px solid white;
+    border: 1px solid rgb(99, 88, 25);
     padding: 15px;
 }
 
@@ -224,36 +224,51 @@ nav .logo:hover {
 
 
 /* The footer is started here  */
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Martel+Sans:wght@900&display=swap');
+
+
 .footer {
-    height: 35vh;
+    height: 25vh;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
+}
+
+.footer ul {
+    font-family: "Martel Sans", sans-serif;
+    margin-left: 150px ;
 }
 
 .footer ul li {
     list-style-type: none;
-    padding-top: 20px;
+    padding-top: 9px;
+    color:#111827;
 
 
 }
+
 
 .footer ul li a:hover {
     color: #000000;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.input-box{
+    margin-right: 150px;
 }
 
 
-
 .input-box .botton {
-    width: 30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     background-color: #000000;
     color: white;
     padding: 14px;
     margin-top: 6px;
     border: none;
-    border-radius: 20px;
+    border-radius: 1000px;
     cursor: pointer;
 }
 
